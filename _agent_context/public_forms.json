@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "mitarbeiterverwaltung",
+      "app_id": "6a0d56eff6d306d245e80892",
+      "path": "/rest/apps/6a0d56eff6d306d245e80892/records",
+      "allowed_fields": [
+        "nachname",
+        "position",
+        "email",
+        "telefon",
+        "eintrittsdatum",
+        "notizen_ma",
+        "vorname"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Mitarbeiterverwaltung — Formular"
+    },
+    {
+      "entity": "kundenverwaltung",
+      "app_id": "6a0d56f7256dd49a8280fee1",
+      "path": "/rest/apps/6a0d56f7256dd49a8280fee1/records",
+      "allowed_fields": [
+        "kunde_vorname",
+        "kunde_nachname",
+        "firmenname",
+        "kunde_email",
+        "kunde_telefon",
+        "strasse",
+        "hausnummer",
+        "plz",
+        "ort",
+        "kundenkategorie",
+        "notizen_kunde"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kundenverwaltung — Formular"
+    },
+    {
+      "entity": "motivkatalog",
+      "app_id": "6a0d56f72007191e2edd78fb",
+      "path": "/rest/apps/6a0d56f72007191e2edd78fb/records",
+      "allowed_fields": [
+        "motivname",
+        "motiv_beschreibung",
+        "kategorie",
+        "standardbreite_cm",
+        "standardhoehe_cm",
+        "preis_pro_qm",
+        "motiv_aktiv"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Motivkatalog — Formular"
+    },
+    {
+      "entity": "materialverwaltung",
+      "app_id": "6a0d56f855253e52842348cf",
+      "path": "/rest/apps/6a0d56f855253e52842348cf/records",
+      "allowed_fields": [
+        "materialname",
+        "materialtyp",
+        "einheit",
+        "aktueller_bestand",
+        "mindestbestand",
+        "preis_pro_einheit",
+        "lieferant",
+        "notizen_material"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Materialverwaltung — Formular"
+    },
+    {
+      "entity": "auftragsverwaltung",
+      "app_id": "6a0d56f99f9d316918f2d2d8",
+      "path": "/rest/apps/6a0d56f99f9d316918f2d2d8/records",
+      "allowed_fields": [
+        "auftragsnummer",
+        "auftragsdatum",
+        "status",
+        "druckbreite_cm",
+        "druckhoehe_cm",
+        "materialien",
+        "wunschtermin",
+        "lieferart",
+        "liefer_strasse",
+        "liefer_hausnummer",
+        "liefer_plz",
+        "liefer_ort",
+        "sonderanforderungen",
+        "interne_notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Auftragsverwaltung — Formular"
+    },
+    {
+      "entity": "rechnungsverwaltung",
+      "app_id": "6a0d56f9435ab60a2ee330a8",
+      "path": "/rest/apps/6a0d56f9435ab60a2ee330a8/records",
+      "allowed_fields": [
+        "rechnungsnummer",
+        "rechnungsdatum",
+        "faelligkeitsdatum",
+        "nettobetrag",
+        "mehrwertsteuersatz",
+        "gesamtbetrag",
+        "zahlungsart",
+        "zahlungsstatus",
+        "rechnungsnotiz"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Rechnungsverwaltung — Formular"
+    }
+  ]
+}
